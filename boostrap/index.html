@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TP Front Bootstrap</title>
+    
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+   <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">-->
+</head>
+  <body>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+   <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>-->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Conf BS AS</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#columnas">Columnas</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <br>
+
+
+    <!-- Inicio Carrousel -->
+
+
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/img/ba1.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/ba2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/ba3.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+    <!-- inicio Cards Group -->
+   
+    <h2 class="text-center">ORADORES</h2>
+    <div class="card-group">
+      <div class="card">
+        <img src="assets/img/steve.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <span class="badge text-bg-warning">JavaScript</span>
+          <span class="badge text-bg-info">React</span>
+          <h5 class="card-title">Steve Jobs</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="assets/img/bill.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <span class="badge text-bg-warning">JavaScript</span>
+          <span class="badge text-bg-info">React</span>
+          <h5 class="card-title">Bill Gates</h5>
+          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="assets/img/ada.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <span class="badge text-bg-secondary">Negocios</span>
+          <span class="badge text-bg-danger">Startups</span>
+          <h5 class="card-title">Ada Lovelace</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- inicio card Horizontal -->
+    <div class="card mb-3">
+      <div class="row g-0">
+        <div class="col-6">
+          <img src="assets/img/honolulu.jpg" class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-6">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <section class="col-6 text-center mx-auto my-3">
+    <h2 class="text-center">Contacto</h2>
+    <p>Dejanos tu consulta. Uno de nuestros asesores se comunicará a la brevedad</p>
+    <form>
+        <div class="input-group mb-3 input-group-sm">
+            <input type="text" aria-label="First name" class="form-control" placeholder="Nombre">
+            <input type="text" aria-label="Last name" class="form-control" placeholder="Apellido">
+        </div>
+        <div class="mb-3 input-group-lg">
+          <textarea type="text" class="form-control" id="exampleInputPassword1" placeholder="Consulta"></textarea>
+          <div id="emailHelp" class="form-text">Recuerda incluir un título para tu charla</div>
+        </div>
+        <div class="d-grid gap-2">
+            <button type="submit" class="btn btn-primary" >Enviar</button>
+        </div>
+        
+    </form>
+    </section>
+    <footer class="text-center text-bg-success p-3">
+        <div class="row mx-5 my-3">
+            <div class="col">Preguntas Frecuentes</div>
+            <div class="col">Contáctanos</div>
+            <div class="col">Prensa</div>
+            <div class="col">Conferencias</div>
+            <div class="col">Términos y Condiciones</div>
+            <div class="col">Privacidad</div>
+            <div class="col">Estudiantes</div>
+        </div>
+    </footer>
+  </body>
+</html>
