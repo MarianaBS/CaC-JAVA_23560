@@ -1,0 +1,7 @@
+*buscar fotos acordes
+*escribir textos coherentes y relacionados
+*corregir nav
+*separar Cards
+*fondos de colores 
+*links dentro de la pag
+¡opacidad fotos
