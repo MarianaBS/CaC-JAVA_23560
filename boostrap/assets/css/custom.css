@@ -1,3 +1,10 @@
+p.Carrousel{
+    font-size: medium;
+    font-weight:bold ;
+}
+.carousel-item img{
+    opacity: 0.7;
+}
 a{
-text-decoration: none;
+    text-decoration: none;
 }
