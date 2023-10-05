@@ -1,9 +1,10 @@
 p.Carrousel{
     font-size: medium;
     font-weight:bold ;
+    color: black;
 }
 .carousel-item img{
-    opacity: 0.7;
+    opacity: 0.6;
 }
 a{
     text-decoration: none;
@@ -11,3 +12,7 @@ a{
 #card-half{
     background-color: seagreen;
 }
+h1{
+    color: black;
+}
+
