@@ -1,5 +1,3 @@
-
-*escribir textos coherentes y relacionados
-*corregir nav
-*fondos de colores 
+*todos los textos
 *links dentro de la pag (pie y nav)
+mejorar nav
